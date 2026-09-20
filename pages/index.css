@@ -56,7 +56,6 @@
 
 .header__content {
   margin-left: 80px;
-  margin-top: 183px;
   display: flex;
   justify-content: space-between;
 }
@@ -72,6 +71,8 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 28px;
+  margin-top: 183px;
+  margin-left: 80px;
 }
 
 .header__span-accent {
