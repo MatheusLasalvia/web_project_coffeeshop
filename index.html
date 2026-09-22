@@ -10,7 +10,7 @@
     />
     <meta name="keywords" content="Café, Coffeeshop, Bebidas, Receitas" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="import" href="favicon.ico.ico" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -134,62 +134,61 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <div class="reservation__form-container">
-            <form class="form reservation__form">
-              <label for="name" class="form__label">Nome*</label>
-              <input
-                type="text"
-                id="name"
-                name="#"
-                required
-                placeholder="Nome"
-                class="form__input"
-              />
-              <label for="convidados" class="form__label"
-                >Número de convidados*</label
-              >
-              <input
-                type="number"
-                id="convidados"
-                name="#"
-                required
-                placeholder="1-8"
-                class="form__input"
-              />
-              <label for="data" class="form__label">Data*</label>
-              <input
-                type="datetime-local"
-                id="data"
-                name="#"
-                required
-                class="form__input"
-              />
-              <label for="email" class="form__label">Seu e-mail *</label>
-              <input
-                type="email"
-                id="email"
-                name="#"
-                required
-                placeholder="email@email.com"
-                class="form__input"
-              />
 
-              <button type="submit" class="form__button">
-                Reservar uma mesa
-              </button>
-              <div>
-                <label for="checkbox" class="form__label form__label-checkbox"
-                  ><input
-                    type="checkbox"
-                    id="checkbox"
-                    name="#"
-                    required
-                    class="form__input-checkbox"
-                  />Eu concordo com os termos de uso</label
-                >
-              </div>
-            </form>
-          </div>
+          <form class="form reservation__form">
+            <label for="name" class="form__label">Nome*</label>
+            <input
+              type="text"
+              id="name"
+              name="#"
+              required
+              placeholder="Nome"
+              class="form__input"
+            />
+            <label for="convidados" class="form__label"
+              >Número de convidados*</label
+            >
+            <input
+              type="number"
+              id="convidados"
+              name="#"
+              required
+              placeholder="1-8"
+              class="form__input"
+            />
+            <label for="data" class="form__label">Data*</label>
+            <input
+              type="datetime-local"
+              id="data"
+              name="#"
+              required
+              class="form__input"
+            />
+            <label for="email" class="form__label">Seu e-mail *</label>
+            <input
+              type="email"
+              id="email"
+              name="#"
+              required
+              placeholder="email@email.com"
+              class="form__input"
+            />
+
+            <button type="submit" class="form__button">
+              Reservar uma mesa
+            </button>
+            <div>
+              <label for="checkbox" class="form__label form__label-checkbox"
+                ><input
+                  type="checkbox"
+                  id="checkbox"
+                  name="#"
+                  required
+                  class="form__input-checkbox"
+                />Eu concordo com os termos de uso</label
+              >
+            </div>
+          </form>
         </section>
       </main>
 
