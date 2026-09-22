@@ -9,7 +9,6 @@
       content="Bem-vindo ao Triple Espresso, o lugar perfeito para desfrutar de um bom café e refeições deliciosas."
     />
     <meta name="keywords" content="Café, Coffeeshop, Bebidas, Receitas" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="import" href="favicon.ico.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +39,7 @@
             <li>
               <a href="#reservation" class="nav__link">Reservar uma mesa</a>
             </li>
-            <li><a href="#" class="nav__link">Contatos</a></li>
+            <li><a href="#footer" class="nav__link">Contatos</a></li>
           </ul>
         </nav>
 
@@ -194,7 +193,38 @@
         </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo da Triple Espresso"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <p class="footer__social-heading">Siga-nos nas redes sociais!</p>
+
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook"
+                  class="footer__social-icon"
+                /><a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram"
+                  class="footer__social-icon"
+                /><a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">copyright &copy; Matheus Lasalvia.</p>
+      </footer>
     </div>
   </body>
 </html>
