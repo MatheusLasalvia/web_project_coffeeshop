@@ -1,6 +1,6 @@
 .header {
   background-color: #ffffff;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-size: cover;
   background-position: center;
 
@@ -10,7 +10,7 @@
   max-height: 800px;
   height: 100vh;
   position: relative;
-  padding: 30px 5px 40px 30px;
+  padding: 30px 80px 40px 80px;
 }
 
 .header__title {
@@ -23,7 +23,6 @@
   flex-direction: column;
   margin-bottom: 28px;
   margin-top: 183px;
-  margin-left: 50px;
 }
 
 .header__span-accent {
@@ -49,7 +48,6 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  margin-left: 50px;
 }
 
 .header__image {
@@ -65,7 +63,7 @@
   color: #838383;
   display: flex;
   justify-content: space-between;
-  margin: auto 75px 0 50px;
+  margin-top: auto;
 }
 
 .header__address {
