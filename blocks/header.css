@@ -65,5 +65,9 @@
   color: #838383;
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  margin: auto 75px 0 50px;
+}
+
+.header__address {
+  align-self: flex-end;
 }
